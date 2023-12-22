@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d"); // gives access to all 2D drawing functions
 
 var screen, starArr;
 
-var params = { speed: 1, count: 400, life: 5 };
+var params = { speed: 0.5, count: 400, life: 5 };
 
 setup();
 update();

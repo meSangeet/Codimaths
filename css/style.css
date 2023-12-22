@@ -46,7 +46,6 @@ ul {
 }
 
 .logo img {
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -484,11 +483,6 @@ footer ul li a:hover {
 
   footer ul li {
     margin-right: 15px;
-  }
-
-  .logo {
-    width: 150px;
-    margin: auto;
   }
 
   .section-inner-center h3 {

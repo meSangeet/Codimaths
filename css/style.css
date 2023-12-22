@@ -12,6 +12,7 @@ body {
   font-family: 'Familjen Grotesk', sans-serif;
   background: #000;
   color: #fff;
+  overflow: hidden;
 }
 
 a {
@@ -114,17 +115,28 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   animation: fadeInUp 0.5s ease-in-out 0.2s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both;/*Stop from showing at start*/
 }
 
 .section-inner a {
   animation: fadeInUp 0.5s ease-in-out 0.4s;
-  animation-fill-mode: both; // Stop from showing at start
+  animation-fill-mode: both; /*Stop from showing at start*/
 }
 
 /* Background images */
 .section-a {
-  background-image: url('../img/section-a.webp');
+  /* position: relative; */
+  /* background-image: url('../img/section-a.webp'); */
+}
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Behind other elements */
+  pointer-events: none; /* Ensures clicks go through the canvas */
+  /* Set width and height to cover the entire viewport */
+  width: 100vw;
+  height: 100vh;
 }
 .section-b {
   background-image: url('../img/section-b.webp');

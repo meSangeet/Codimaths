@@ -466,7 +466,9 @@ footer ul li a:hover {
 
 @media (max-width: 600px) {
   .section-inner {
-    bottom: 75px;
+    bottom: 115px;
+    margin-bottom: 150px;
+    margin-right: 15px;
     left: 20px;
   }
 

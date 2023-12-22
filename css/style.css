@@ -12,7 +12,7 @@ body {
   font-family: 'Familjen Grotesk', sans-serif;
   background: #000;
   color: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
@@ -125,7 +125,7 @@ section {
 
 /* Background images */
 .section-a {
-  /* position: relative; */
+  position: relative;
   /* background-image: url('../img/section-a.webp'); */
 }
 #stars {
@@ -139,19 +139,19 @@ section {
   height: 100vh;
 }
 .section-b {
-  background-image: url('../img/section-b.webp');
+  /* background-image: url('../img/section-b.webp'); */
 }
 .section-c {
-  background-image: url('../img/section-c.webp');
+  /* background-image: url('../img/section-c.webp'); */
 }
 .section-d {
-  background-image: url('../img/section-d.webp');
+  /* background-image: url('../img/section-d.webp'); */
 }
 .section-e {
-  background-image: url('../img/section-e.webp');
+  /* background-image: url('../img/section-e.webp'); */
 }
 .section-f {
-  background-image: url('../img/section-f.webp');
+  /* background-image: url('../img/section-f.webp'); */
 }
 
 .btn {
